@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 const Home = {
-  template: '<div><h3>Home</h3></div>',
+  template: '<div><h3>Home <Button/></h3></div>',
 };
 const News = {
   template: '<div><h3>News</h3></div>',
