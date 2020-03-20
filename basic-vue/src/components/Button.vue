@@ -11,7 +11,8 @@ export default {
   name: 'Button',
   methods: {
     outputPathToConsole: function() {
-      console.log('Testing');
+      //   console.log('Testing');
+      console.log(this.$route.path);
     },
   },
 };

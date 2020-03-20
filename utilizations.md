@@ -21,6 +21,10 @@ normalize.css
 
 [listening to events and method event handlers](https://vuejs.org/v2/guide/events.html#Method-Event-Handlers)
 
+[route object](https://router.vuejs.org/api/#the-route-object)
+
+[route -> component injection](https://router.vuejs.org/api/#component-injected-properties)
+
 
 
 *** Denotes tooling/resource usage was either unnecessary, or only marginally helpful.
