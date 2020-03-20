@@ -19,7 +19,12 @@ export default {
 
 <style scoped>
 button {
-  color: red;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  background-color: azure;
+  color: rgba(30, 148, 142, 0.993);
   font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
 }
 </style>

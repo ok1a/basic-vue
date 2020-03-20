@@ -16,7 +16,7 @@ export default {
 .Navigation {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 70%;
 }
 
 .navLink {
