@@ -17,6 +17,7 @@ staging-2 branch: https://staging-2-basic-vue.netlify.com/
 ### packages
 
 [normalize.css](https://github.com/necolas/normalize.css)
+
 [vue-router](https://github.com/vuejs/vue-router)
 
 ### dev tools
