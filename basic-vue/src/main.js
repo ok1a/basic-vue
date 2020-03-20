@@ -5,6 +5,8 @@ import 'normalize.css';
 
 Vue.config.productionTip = false;
 
+Vue.use(VueRouter);
+
 const PageOne = {
   template: '<div><h3>This is Page One</h3></div>',
 };
@@ -23,7 +25,7 @@ const routes = [
   },
 ];
 
-const router = new VueRouter({ routes: routes });
+const router = new VueRouter({ routes });
 
 new Vue({
   router,
