@@ -1,6 +1,6 @@
 <template>
   <div class="ButtonHolder">
-    <button>
+    <button v-on:click="outputPathToConsole">
       Click
     </button>
   </div>
@@ -9,5 +9,10 @@
 <script>
 export default {
   name: 'Button',
+  methods: {
+    outputPathToConsole: function() {
+      console.log('Testing');
+    },
+  },
 };
 </script>
