@@ -3,21 +3,18 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-const Home = {
-  template: '<div><h3>Home</h3></div>',
-};
-const News = {
-  template: '<div><h3>News</h3></div>',
-};
+// route imports
+import NewsPage from './views/News.vue';
+import HomePage from './views/Home.vue';
 
 const routes = [
   {
     path: '/home',
-    component: Home,
+    component: HomePage,
   },
   {
     path: '/news',
-    component: News,
+    component: NewsPage,
   },
 ];
 

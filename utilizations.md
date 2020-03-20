@@ -19,6 +19,11 @@ normalize.css
 	- [runtimecompiler error](https://github.com/vuejs/vue-cli/issues/2754)
 		- [fix](https://cli.vuejs.org/config/#runtimecompiler)
 
+[listening to events and method event handlers](https://vuejs.org/v2/guide/events.html#Method-Event-Handlers)
+
+[route object](https://router.vuejs.org/api/#the-route-object)
+
+[route -> component injection](https://router.vuejs.org/api/#component-injected-properties)
 
 
 
