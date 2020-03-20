@@ -4,8 +4,8 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 // route imports
-import NewsPage from './views/News.vue';
 import HomePage from './views/Home.vue';
+import NewsPage from './views/News.vue';
 
 const routes = [
   {
