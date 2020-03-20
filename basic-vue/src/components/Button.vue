@@ -11,9 +11,15 @@ export default {
   name: 'Button',
   methods: {
     outputPathToConsole: function() {
-      //   console.log('Testing');
       console.log(this.$route.path);
     },
   },
 };
 </script>
+
+<style scoped>
+button {
+  color: red;
+  font-weight: 700;
+}
+</style>
