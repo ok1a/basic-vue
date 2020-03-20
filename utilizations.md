@@ -4,6 +4,7 @@ normalize.css
 
 ## tooling
 [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+
 [vuejs chrome devtools extension](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related) ***
 
 ## resources
@@ -21,4 +22,4 @@ normalize.css
 
 
 
-*** = Denotes tooling/resource usage was either unnecessary, or only marginally helpful.
+*** Denotes tooling/resource usage was either unnecessary, or only marginally helpful.
