@@ -1,8 +1,8 @@
 <template>
   <div class="Navigation">
-    <router-link to="/">Index</router-link>
-    <router-link to="/home">Home</router-link>
-    <router-link to="/news">News</router-link>
+    <router-link to="/" class="navLink">Index</router-link>
+    <router-link to="/home" class="navLink">Home</router-link>
+    <router-link to="/news" class="navLink">News</router-link>
   </div>
 </template>
 
@@ -12,4 +12,15 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.navLink {
+  text-decoration: none;
+  color: aqua;
+}
+</style>
