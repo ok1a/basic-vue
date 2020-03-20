@@ -7,21 +7,21 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
 
-const PageOne = {
-  template: '<div><h3>This is Page One</h3></div>',
+const Home = {
+  template: '<div><h3>Home</h3></div>',
 };
-const PageTwo = {
-  template: '<div><h3>This is Page Two</h3></div>',
+const News = {
+  template: '<div><h3>News</h3></div>',
 };
 
 const routes = [
   {
-    path: '/1',
-    component: PageOne,
+    path: '/home',
+    component: Home,
   },
   {
-    path: '/2',
-    component: PageTwo,
+    path: '/news',
+    component: News,
   },
 ];
 
