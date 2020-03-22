@@ -2,17 +2,24 @@
   <section>
     <h1>News</h1>
     <div>
-      <div v-for="(news, index) in newsArr" :key="index">
-        <h2>
+      <!-- <div v-for="(news, index) in newsArr" :key="index"> -->
+      <!-- <h2>
           {{ news.heading }}
         </h2>
-        <p>{{ news.article }}</p>
-      </div>
+        <p>{{ news.article }}</p> -->
+      <Card
+        v-for="(news, index) in newsArr"
+        :key="index"
+        v-bind:article="news"
+      />
+      <!-- </div> -->
     </div>
   </section>
 </template>
 
 <script>
+import Card from './Card';
+
 export default {
   name: 'Section',
   data: function() {
@@ -25,6 +32,9 @@ export default {
         { heading: 'corona!', article: 'article text 5' },
       ],
     };
+  },
+  components: {
+    Card,
   },
 };
 </script>

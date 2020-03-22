@@ -1,9 +1,9 @@
 <template>
   <div class="card">
     <div class="card-content">
-      <h3>article heading:</h3>
+      <h3>article heading: {{ article.heading }}</h3>
       <div class="card-content-summary">
-        <p>summary here</p>
+        <p>{{ article.article }}</p>
       </div>
     </div>
   </div>
