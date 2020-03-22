@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 // route imports
 import HomePage from './views/Home.vue';
 import NewsPage from './views/News.vue';
+import NewsPage2 from './views/NewsFromAPI.vue';
 
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
   {
     path: '/news',
     component: NewsPage,
+  },
+  {
+    path: '/news2',
+    component: NewsPage2,
   },
 ];
 

@@ -3,6 +3,7 @@
     <router-link to="/" class="navLink">Index</router-link>
     <router-link to="/home" class="navLink">Home</router-link>
     <router-link to="/news" class="navLink">News</router-link>
+    <router-link to="/news2" class="navLink">NewsFromAPI</router-link>
   </div>
 </template>
 
