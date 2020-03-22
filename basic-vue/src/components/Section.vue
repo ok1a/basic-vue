@@ -36,22 +36,34 @@ export default {
   },
   data: function() {
     return {
-      newsArr: [
-        { heading: 'coronaaaaaaa', article: 'article text 1' },
-        { heading: 'corona!', article: 'article text 2' },
-        { heading: 'corona!', article: 'article text 3' },
-        { heading: 'corona!', article: 'article text 4' },
-        { heading: 'corona!', article: 'article text 5' },
-        { heading: 'corona!', article: 'article text 6' },
-      ],
+      //   newsArr: [
+      //     { heading: 'coronaaaaaaa', article: 'article text 1' },
+      //     { heading: 'corona!', article: 'article text 2' },
+      //     { heading: 'corona!', article: 'article text 3' },
+      //     { heading: 'corona!', article: 'article text 4' },
+      //     { heading: 'corona!', article: 'article text 5' },
+      //     { heading: 'corona!', article: 'article text 6' },
+      //   ],
+      //   newsArr: this.$store.state.newsArr,
+      //   newsArr: this.$store.getters.getNewsStories,
     };
+  },
+  computed: {
+    newsArr: function() {
+      return this.$store.getters.getNewsStories;
+    },
   },
   components: {
     Card,
   },
   methods: {
     addArticle: function() {
-      this.newsArr.push({ heading: 'new story', article: 'new article text' });
+      //   this.newsArr.push({ heading: 'new story', article: 'new article text' });
+      const newStoryToAdd = {
+        heading: '123',
+        article: '456',
+      };
+      this.$store.commit('addStory', newStoryToAdd);
       this.testLifecycle('addArticle');
     },
     testLifecycle: function(fromFunc) {
