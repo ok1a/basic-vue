@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 // route imports
 import HomePage from './views/Home.vue';
 import NewsPage from './views/News.vue';
-import NewsPage2 from './views/News2.vue';
+import NewsPage2 from './views/NewsFromAPI.vue';
 
 const routes = [
   {
