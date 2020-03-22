@@ -18,7 +18,9 @@ import Card from './Card';
 export default {
   name: 'Section',
   beforeCreate: function() {
-    console.log('instance not created yet');
+    console.log(
+      'instance not created yet. the below function should error since the method has not been defined yet',
+    );
     this.testLifecycle('beforeCreate');
   },
   created: function() {
