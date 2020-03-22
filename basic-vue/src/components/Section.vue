@@ -12,7 +12,7 @@
       <button v-on:click="addArticle">add story</button>
     </div>
     <div id="attribution">
-      <a href="https://newsapi.org/"
+      <a href="https://newsapi.org/" target="_blank"
         >All real-world news data powered by NewsAPI</a
       >
     </div>
