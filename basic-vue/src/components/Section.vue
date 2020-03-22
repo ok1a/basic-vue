@@ -2,10 +2,11 @@
   <section>
     <h1>News</h1>
     <div>
-      <div v-for="news in newsArr" :key="news.heading">
+      <div v-for="(news, index) in newsArr" :key="index">
         <h2>
           {{ news.heading }}
         </h2>
+        <p>{{ news.article }}</p>
       </div>
     </div>
   </section>
@@ -18,10 +19,10 @@ export default {
     return {
       newsArr: [
         { heading: 'corona!', article: 'article text 1' },
-        { heading: 'corona!', article: 'article text 1' },
-        { heading: 'corona!', article: 'article text 1' },
-        { heading: 'corona!', article: 'article text 1' },
-        { heading: 'corona!', article: 'article text 1' },
+        { heading: 'corona!', article: 'article text 2' },
+        { heading: 'corona!', article: 'article text 3' },
+        { heading: 'corona!', article: 'article text 4' },
+        { heading: 'corona!', article: 'article text 5' },
       ],
     };
   },
