@@ -17,6 +17,21 @@ import Card from './Card';
 
 export default {
   name: 'Section',
+  beforeCreate: function() {
+    console.log('instance not created yet');
+    this.testLifecycle('beforeCreate');
+  },
+  created: function() {
+    console.log('instance created');
+    this.testLifecycle('created');
+  },
+  beforeUpdate: function() {
+    console.log("our data has changed, we're about to re-render!");
+    this.testLifecycle('beforeUpdate');
+  },
+  updated: function() {
+    this.testLifecycle('updated');
+  },
   data: function() {
     return {
       newsArr: [
@@ -35,6 +50,12 @@ export default {
   methods: {
     addArticle: function() {
       this.newsArr.push({ heading: 'new story', article: 'new article text' });
+      this.testLifecycle('addArticle');
+    },
+    testLifecycle: function(fromFunc) {
+      console.log(
+        `how long after/before a lifecycle method will this run... let's see. ${fromFunc}`,
+      );
     },
   },
 };
