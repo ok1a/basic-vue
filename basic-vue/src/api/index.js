@@ -7,7 +7,7 @@ const api_key = `apiKey=${process.env.VUE_APP_NEWSAPIKEY}`;
 // i'll just add it as an env var so it's at least not uploaded to my repo
 
 const endpoint =
-  'http://newsapi.org/v2/top-headlines?' + 'country=us&' + api_key;
+  'https://newsapi.org/v2/top-headlines?' + 'country=us&' + api_key;
 
 async function getPostsFromAPI() {
   return axios.get(endpoint);
