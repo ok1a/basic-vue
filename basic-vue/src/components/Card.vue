@@ -1,9 +1,9 @@
 <template>
   <div class="card">
     <div class="card-content">
-      <h3>article heading: {{ article.heading }}</h3>
+      <h3>{{ article.title }}</h3>
       <div class="card-content-summary">
-        <p>{{ article.article }}</p>
+        <p>{{ article.description }}</p>
       </div>
     </div>
   </div>
@@ -29,8 +29,10 @@ export default {
 }
 h3 {
   font-size: 1rem;
+  color: aquamarine;
 }
 p {
   font-size: 0.95rem;
+  color: blanchedalmond;
 }
 </style>

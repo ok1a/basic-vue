@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>News</h1>
+    <h1>API News</h1>
     <div class="cards-holder">
       <Card
         v-for="(news, index) in newsArr"
@@ -18,10 +18,12 @@ import Card from './Card';
 export default {
   name: 'Section',
   beforeCreate: function() {
-    console.log(
-      'instance not created yet. the below function should error since the method has not been defined yet',
-    );
-    this.testLifecycle('beforeCreate');
+    console.log('instance not created yet.');
+    // console.log(
+    //   'instance not created yet. the below function should error since the method has not been defined yet',
+    // );
+
+    // this.testLifecycle('beforeCreate');
   },
   created: function() {
     console.log('instance created');
@@ -34,19 +36,11 @@ export default {
   updated: function() {
     this.testLifecycle('updated');
   },
+  mounted: function() {
+    this.$store.dispatch('GET_POSTS');
+  },
   data: function() {
-    return {
-      //   newsArr: [
-      //     { heading: 'coronaaaaaaa', article: 'article text 1' },
-      //     { heading: 'corona!', article: 'article text 2' },
-      //     { heading: 'corona!', article: 'article text 3' },
-      //     { heading: 'corona!', article: 'article text 4' },
-      //     { heading: 'corona!', article: 'article text 5' },
-      //     { heading: 'corona!', article: 'article text 6' },
-      //   ],
-      //   newsArr: this.$store.state.newsArr,
-      //   newsArr: this.$store.getters.getNewsStories,
-    };
+    return {};
   },
   computed: {
     newsArr: function() {
@@ -58,10 +52,9 @@ export default {
   },
   methods: {
     addArticle: function() {
-      //   this.newsArr.push({ heading: 'new story', article: 'new article text' });
       const newStoryToAdd = {
-        heading: '123',
-        article: '456',
+        title: '123',
+        description: '456',
       };
       this.$store.commit('addStory', newStoryToAdd);
       this.testLifecycle('addArticle');
@@ -87,5 +80,8 @@ section {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+h1 {
+  color: rgb(235, 142, 142);
 }
 </style>

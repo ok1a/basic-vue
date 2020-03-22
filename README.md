@@ -45,6 +45,26 @@ staging-2 branch: https://staging-2-basic-vue.netlify.com/
 
 [structuring a vue.js project](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb)
 
+#### vuex & state related resources
+
+[Vue.js and Vuex - best practices for managing your state - github gist by DawidMyslak](https://gist.github.com/DawidMyslak/2b046cca5959427e8fb5c1da45ef7748)
+
+[official vuex docs vuex structure](https://vuex.vuejs.org/guide/state.html)
+
+[vuejs docs computed](https://vuejs.org/v2/guide/computed.html)
+
+[vuejs docs reactivity](https://vuejs.org/v2/guide/reactivity.html)
+
+[vuejs docs state management](https://vuejs.org/v2/guide/state-management.html)
+
+[When Why and How to use Vuex - Nihar Raote](https://dev.to/napoleon039/when-why-and-how-to-use-vuex-9fl)
+
+[official vuex docs vuex structure](https://vuex.vuejs.org/guide/structure.html)
+
+[official vuex docs code example](https://github.com/vuejs/vuex/tree/dev/examples/chat)
+
+[mastering vuex medium article by Sanath Kumar](https://medium.com/dailyjs/mastering-vuex-zero-to-hero-e0ca1f421d45)
+
 ### lightly read over
 
 [comparison of other frameworks - from vuejs](https://vuejs.org/v2/guide/comparison.html)
@@ -54,3 +74,7 @@ staging-2 branch: https://staging-2-basic-vue.netlify.com/
 [Vue.js or React ? Which you would chose and why?](https://www.reddit.com/r/javascript/comments/8o781t/vuejs_or_react_which_you_would_chose_and_why/)
 
 [Switching From React To Vue.js](https://vuejsdevelopers.com/2017/05/28/switch-from-react-to-vue-js/)
+
+##### supplemental resources / support
+
+[lofi hip hop radio - beats to relax/study to - youtube](https://www.youtube.com/watch?v=5qap5aO4i9A)

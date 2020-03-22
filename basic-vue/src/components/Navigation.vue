@@ -1,27 +1,27 @@
 <template>
-	<div class="Navigation">
-		<router-link to="/" class="navLink">Index</router-link>
-		<router-link to="/home" class="navLink">Home</router-link>
-		<router-link to="/news" class="navLink">News</router-link>
-		<router-link to="/news2" class="navLink">News2</router-link>
-	</div>
+  <div class="Navigation">
+    <router-link to="/" class="navLink">Index</router-link>
+    <router-link to="/home" class="navLink">Home</router-link>
+    <router-link to="/news" class="navLink">News</router-link>
+    <router-link to="/news2" class="navLink">NewsFromAPI</router-link>
+  </div>
 </template>
 
 <script>
 export default {
-	name: 'Navigation',
+  name: 'Navigation',
 };
 </script>
 
 <style scoped>
 .Navigation {
-	display: flex;
-	justify-content: space-between;
-	width: 70%;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .navLink {
-	text-decoration: none;
-	color: aqua;
+  text-decoration: none;
+  color: aqua;
 }
 </style>
