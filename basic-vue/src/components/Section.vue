@@ -8,7 +8,14 @@
         v-bind:article="news"
       />
     </div>
-    <button v-on:click="addArticle">add story</button>
+    <div id="add-story">
+      <button v-on:click="addArticle">add story</button>
+    </div>
+    <div id="attribution">
+      <a href="https://newsapi.org/"
+        >All real-world news data powered by NewsAPI</a
+      >
+    </div>
   </section>
 </template>
 
@@ -83,5 +90,17 @@ section {
 }
 h1 {
   color: rgb(235, 142, 142);
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+#attribution,
+#add-story {
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  padding: auto;
 }
 </style>
