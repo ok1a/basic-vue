@@ -9,7 +9,6 @@
 			/>
 		</div>
 		<div id="add-story">
-			<!-- <button v-on:click="addArticle">add story</button> -->
 			<ArticleForm />
 		</div>
 		<div id="attribution">
