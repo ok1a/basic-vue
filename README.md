@@ -46,6 +46,7 @@ staging-2 branch: https://staging-2-basic-vue.netlify.com/
 [structuring a vue.js project](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb)
 
 [Form Input Bindings](https://vuejs.org/v2/guide/forms.html#Basic-Usage)
+[form validation](https://vuejs.org/v2/cookbook/form-validation.html)
 
 #### vuex & state related resources
 
