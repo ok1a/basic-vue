@@ -61,14 +61,6 @@ export default {
 		ArticleForm,
 	},
 	methods: {
-		addArticle: function() {
-			const newStoryToAdd = {
-				title: '123',
-				description: '456',
-			};
-			this.$store.commit('addStory', newStoryToAdd);
-			this.testLifecycle('addArticle');
-		},
 		testLifecycle: function(fromFunc) {
 			console.log(
 				`how long after/before a lifecycle method will this run... let's see. ${fromFunc}`,
