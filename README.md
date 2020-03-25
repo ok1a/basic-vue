@@ -45,6 +45,8 @@ staging-2 branch: https://staging-2-basic-vue.netlify.com/
 
 [structuring a vue.js project](https://itnext.io/how-to-structure-a-vue-js-project-29e4ddc1aeeb)
 
+[Form Input Bindings](https://vuejs.org/v2/guide/forms.html#Basic-Usage)
+
 #### vuex & state related resources
 
 [Vue.js and Vuex - best practices for managing your state - github gist by DawidMyslak](https://gist.github.com/DawidMyslak/2b046cca5959427e8fb5c1da45ef7748)
@@ -64,6 +66,16 @@ staging-2 branch: https://staging-2-basic-vue.netlify.com/
 [official vuex docs code example](https://github.com/vuejs/vuex/tree/dev/examples/chat)
 
 [mastering vuex medium article by Sanath Kumar](https://medium.com/dailyjs/mastering-vuex-zero-to-hero-e0ca1f421d45)
+
+#### used as guide to follow Vue conventions
+
+[vue-2-boilerplate](https://github.com/petervmeijgaard/vue-2-boilerplate)
+
+[vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate)
+
+#### vuex continued
+
+[Vue/Vuex unknown action type - helped debug accessing namespaced modules](https://stackoverflow.com/questions/53163508/vue-vuex-unknown-action-type)
 
 ### lightly read over
 
