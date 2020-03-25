@@ -22,6 +22,7 @@
 <script>
 import ArticleCard from '../components/News/ArticleCard';
 import ArticleForm from '../components/News/ArticleForm';
+import { mapGetters } from 'vuex';
 
 export default {
 	name: 'Section',
@@ -45,15 +46,18 @@ export default {
 		this.testLifecycle('updated');
 	},
 	mounted: function() {
-		this.$store.dispatch('GET_POSTS');
+		this.$store.dispatch('articles/getPostsFromAPI');
 	},
 	data: function() {
 		return {};
 	},
 	computed: {
-		newsArr: function() {
-			return this.$store.getters.getNewsStories;
-		},
+		// newsArr: function() {
+		// 	return this.$store.getters.getNewsStories;
+		// },
+		...mapGetters({
+			newsArr: 'articles/getNewsStories',
+		}),
 	},
 	components: {
 		ArticleCard,

@@ -23,7 +23,7 @@ export default {
 				title: this.article_header,
 				description: this.article_description,
 			};
-			this.$store.commit('addStory', newStoryToAdd);
+			this.$store.dispatch('articles/addStory', newStoryToAdd);
 
 			this.clearForm();
 		},
