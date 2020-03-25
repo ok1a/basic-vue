@@ -1,16 +1,16 @@
 <template>
-  <div id="HomePage">
-    <Page pageName="Home" />
-  </div>
+	<div id="HomePage">
+		<Page pageName="Home" />
+	</div>
 </template>
 
 <script>
-import Page from '../components/Page';
+import Page from '../components/PathPage/Page';
 
 export default {
-  name: 'Home',
-  components: {
-    Page,
-  },
+	name: 'Home',
+	components: {
+		Page,
+	},
 };
 </script>
